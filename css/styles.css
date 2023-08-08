@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header .logo {
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    color: #005677;
+    background-color: #C4C4C4;
+    height: 60px;
+}
+
+.espacio {
+    height: 100px;
+}
+
+h3 {
+    display: flex;
+    padding-left: 10px;
+    background-color: #C4C4C4;
+    letter-spacing: 5px;
+    color: #005677;
+    height: 30px;
+    align-items: center;
+}
+
+.padre {
+    display: flex;
+    gap: 10px;
+    margin: 5px 0px 5px 20px;
+}
+
+.datos-personales {
+    height: 125px;
+}
+
+.datos-personales ul {
+    margin: 10px 0 0 35px;
+    list-style-type: disc;
+}
+
+.datos-personales li {
+    margin: 3px 0;
+}
+
+.dato {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.formacion-academica {
+    height: 140px;
+}
+
+.experiencia-laboral {
+    height: 200px;
+}
+
+.primero {
+    margin-top: 15px;
+}
+
+.fecha {
+    font-weight: bold;
+}
+
+.formacion-academica li,
+.experiencia-laboral li {
+    list-style-type: none;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #005677;
+    height: 37px;
+}
+
+footer p {
+    font-weight: bold;
+    color: white;
+}
